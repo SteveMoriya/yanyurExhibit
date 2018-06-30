@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>艳阈</title>
+<meta charset="utf-8" />
+<meta content="maximum-dpr=2" name="flexible" />
+<meta name="keywords" content="艳阈" />
+<meta name="description" content="艳阈" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<link rel="Shortcut Icon" href="img/icon.ico" type="image/x-icon">
+<!--样式表-->
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<!--特殊样式表-->
+<script type="text/javascript" src="js/flexible.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fontello.css" />
+<link rel="stylesheet" href="css/swiper.min.css" />
+<script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+
+<body>
+<!--正文内容-->
+<div id="content" class="snap-content">
+  <div class="top bottom-line"><a class="back" href="javascript:history.go(-1)"><i class="demo-icon icon-left"></i></a>项目详情</div>
+  <div class="detail-banner"> <img src="img/detail2.jpg" />
+    <div class="det-time">
+      <p><i class="demo-icon icon-naozhong"></i>50分钟</p>
+      <img src="img/det-time.png" /> </div>
+  </div>
+  <!--正文-->
+  <div class="det"> 
+    <!--项目功效-->
+    <div class="det-kuai">
+      <div class="det-kuai-title">
+        <p>项目功效<em></em><em></em></p>
+      </div>
+      <div class="det-xmgx">
+        <p class="det-xmgx-xx active"> 我们随着年龄的增长体内毛囊细胞会减少，营养会流失，孕睫术通过仪器、产品补充更多的毛囊细胞生长因子，激活毛囊，为您的睫毛带来新生力，使自己的睫毛长长、长密、长粗、长黑！</p>
+      </div>
+    </div>
+    <!--/项目功效--> 
+    <!--操作步骤-->
+    <div class="det-project">
+      <div class="det-kuai-title">
+        <p>操作步骤<em></em><em></em></p>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="czbz-img" src="img/pro2-yj/yj01.jpg" /><em class="czbz-time">0分钟</em>
+            <p class="czbz-js">测量睫毛长度</p>
+          </div>
+          <div class="swiper-slide"><img class="czbz-img" src="img/pro2-yj/yj02.jpg" /><em class="czbz-time">10分钟</em>
+            <p class="czbz-js">清洁</p>
+          </div>
+          <div class="swiper-slide"><img class="czbz-img" src="img/pro2-yj/yj03.jpg" /><em class="czbz-time">20分钟</em>
+            <p class="czbz-js">打开毛囊</p>
+          </div>
+          <div class="swiper-slide"><img class="czbz-img" src="img/pro2-yj/yj04.jpg" /><em class="czbz-time">15分钟</em>
+            <p class="czbz-js">注入睫毛生长因子</p>
+          </div>
+          <div class="swiper-slide"><img class="czbz-img" src="img/pro2-yj/yj05.jpg" /><em class="czbz-time">5分钟</em>
+            <p class="czbz-js">敷生长因子</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 3,
+			paginationClickable: true,
+			spaceBetween: 30
+		});
+	</script> 
+    
+    <!--/操作步骤--> 
+    <!--配备产品-->
+    <div class="det-project">
+      <div class="det-kuai-title">
+        <p>配备产品<em></em><em></em></p>
+      </div>
+      <div class="swiper-container2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide carousel clearfix"><span><img src="img/pro2-yj/yj-cp1.png"/></span>
+            <div>
+              <h3>睫毛清洁液</h3>
+              <em>清洁睫毛根部</em>
+              <p>品牌：CHAMPSDELA</p>
+              <p>产地：法国</p>
+            </div>
+          </div>
+          <div class="swiper-slide carousel clearfix"><span><img src="img/pro2-yj/yj-cp2.png"/></span>
+            <div>
+              <h3>生长因子</h3>
+              <em>睫毛“施肥”</em>
+              <p>品牌：CHAMPSDELA</p>
+              <p>产地：法国</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+		var swiper = new Swiper('.swiper-container2', {
+			slidesPerView: 3,
+			paginationClickable: true,
+			spaceBetween: 30
+		});
+	</script> 
+    
+    <!--配备产品--> 
+    <!--注意事项-->
+    <aside class="det-attention">
+      <h3>温馨提示</h3>
+      <ul>
+        <li>按时涂抹生长液；</li>
+        <li>睫毛的生命周期是3-5个月，3个月左右是最佳状态；</li>
+        <li>一周内不食辛辣刺激食物。</li>
+      </ul>
+    </aside>
+    <!--/注意事项--> 
+    <!--/正文--> 
+    <a class="goback" href="index.html">首页</a>
+    <!--/正文内容--> 
+  </div>
+</div>
+</body>
+<script>
+window.onscroll=function(){
+	var scrollT= document.body.scrollTop;
+	var goback=document.getElementsByClassName('goback')[0];
+	if(scrollT>100){
+		goback.style.display='block';
+	}else{
+		goback.style.display='none';
+	}
+}
+</script>
